@@ -1,0 +1,61 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.imagemTopo {
+    width: 15%;
+    transition: 0.4s all;
+}
+
+.imagemTopo:hover {
+    cursor: pointer; 
+    transform: scale(1.05);
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right:0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+    transform: scale(1.04);
+}
+
+.provisorio-texto {
+    margin: 0 0 0 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.provisorio {
+    margin: 10px 50px 20px;
+}
+
